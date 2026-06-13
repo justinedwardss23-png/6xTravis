@@ -1,0 +1,10 @@
+{
+  "name": "j-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Music and photography portfolio starter",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
