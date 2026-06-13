@@ -566,11 +566,11 @@ h1 {
 
 .panel {
   margin-top: 2.5rem;
-  border: 1px solid rgba(245, 225, 255, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.32);
   border-radius: var(--radius-lg);
   padding: 1.4rem;
-  background: linear-gradient(170deg, rgba(255, 255, 255, 0.20), rgba(30, 20, 70, 0.26));
-  box-shadow: 0 24px 70px rgba(24, 16, 50, 0.22);
+  background: linear-gradient(170deg, rgba(255, 255, 255, 0.34), rgba(68, 56, 168, 0.20));
+  box-shadow: 0 24px 70px rgba(24, 16, 50, 0.14);
 }
 
 .split-grid {
@@ -622,11 +622,11 @@ h1 {
 }
 
 .track-card {
-  background: linear-gradient(180deg, rgba(93, 70, 163, 0.88), rgba(28, 20, 72, 0.92));
-  border: 1px solid rgba(245, 220, 255, 0.20);
+  background: linear-gradient(180deg, rgba(185, 160, 255, 0.92), rgba(65, 52, 155, 0.88));
+  border: 1px solid rgba(255, 255, 255, 0.30);
   border-radius: var(--radius-md);
   padding: 1rem;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06), 0 24px 60px rgba(24, 14, 45, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.12), 0 24px 60px rgba(32, 20, 55, 0.12);
 }
 
 .track-card-link {
@@ -685,16 +685,16 @@ h1 {
   overflow: hidden;
   border: 1px solid rgba(221, 208, 255, 0.16);
   background:
-    linear-gradient(125deg, rgba(102, 225, 255, 0.18), transparent),
-    linear-gradient(45deg, rgba(207, 130, 255, 0.18), transparent),
-    linear-gradient(180deg, rgba(65, 54, 145, 0.82), rgba(48, 40, 120, 0.86));
+    linear-gradient(125deg, rgba(102, 225, 255, 0.26), transparent),
+    linear-gradient(45deg, rgba(207, 130, 255, 0.24), transparent),
+    linear-gradient(180deg, rgba(98, 82, 178, 0.74), rgba(70, 58, 150, 0.78));
 }
 
 .photo::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.32), transparent 55%);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.18), transparent 55%);
 }
 
 .photo span {
