@@ -735,10 +735,9 @@ h1 {
   position: relative;
   overflow: hidden;
   border: 1px solid rgba(221, 208, 255, 0.16);
-  background:
-    linear-gradient(125deg, rgba(102, 225, 255, 0.26), transparent),
-    linear-gradient(45deg, rgba(207, 130, 255, 0.24), transparent),
-    linear-gradient(180deg, rgba(98, 82, 178, 0.74), rgba(70, 58, 150, 0.78));
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
 }
 
 .photo::before {
@@ -746,13 +745,14 @@ h1 {
   position: absolute;
   inset: 0;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.18), transparent 55%);
+  z-index: 1;
 }
 
 .photo span {
   position: absolute;
   left: 0.7rem;
   bottom: 0.7rem;
-  z-index: 1;
+  z-index: 2;
   font-size: 0.85rem;
 }
 
